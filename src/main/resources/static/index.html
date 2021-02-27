@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Der Schimpfworteinsager</title>
+  </head>
+  <body>
+  	<div class="container">
+	    <h1>Na ihr Schnellchecker</h1>
+	    <p>Hat euch mal wieder jemand beleidigt oder blöd angemacht und ihr hattet mal wieder keine Antwort parat?</p>
+
+	    <h2>Dann passt mal auf</h2>	    
+	    <p>
+	      Das hier ist ein Schimpfworteinsager.
+	    </p>
+	    <p>
+	      Wenn ihr mal wieder eine schlagfertige Antwort oder einfach nur einen verbalen Gegenschlag braucht, dann drückt auf den Button.
+	    </p>
+	    
+	    <p>
+	      <button id="nextword" type="button" class="btn btn-danger">noch eins</button>
+	    </p>
+	    
+	    <p id="wordcontainer"></p>
+	
+		</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    	$("#nextword").click(() => $("#wordcontainer").text("Hallo"));
+    </script>
+  </body>
+</html>
